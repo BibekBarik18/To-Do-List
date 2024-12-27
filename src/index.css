@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("./assets/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.title{
+  background-color: hsla(0, 0%, 0%, 0.642);
+  color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 0px;
+  width: 440px;
+  text-align: center;
+  padding: 5px;
+}
+input{
+  width: 360px;
+  height: 30px;
+  border-radius: 10px;
+}
+.display button{
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: bisque;
+  margin-left: 2px;
+}
+ol{
+  margin-top: 5px;
+  list-style-type: none;
+  padding: 0px;
+}
+li{
+  border: 2px solid black;
+  background-color: rgba(128, 128, 128, 0.652);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.text{
+  flex: 1;
+}
+.delete,.arrow{
+  width: 40px;
+  height: 30px;
+  margin: 2px;
+  border: 1px solid black;
+  background-color: red;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.arrow{
+  background-color: lightblue;
+}
