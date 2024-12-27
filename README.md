@@ -1,2 +1,2 @@
 # To-Do-List
-A simple to-do list webbsite built using react js
+A simple to-do list website built using react js
