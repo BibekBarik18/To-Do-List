@@ -51,9 +51,9 @@ function ToDoList(){
                 {task.map((task,index)=>
                     <li key={index}>
                         <span className="text">{task}</span>
-                        <button className="delete" onClick={()=>deleteTask(index)}><img src=".\src\assets\delete.svg" alt="delete"/></button>
-                        <button className="arrow" onClick={()=>moveUp(index)}><img src=".\src\assets\up.svg" alt="up"/></button>
-                        <button className="arrow" onClick={()=>moveDown(index)}><img src=".\src\assets\down.svg" alt="down"/></button>
+                        <button className="delete" onClick={()=>deleteTask(index)}><img src="public\delete.svg" alt="delete"/></button>
+                        <button className="arrow" onClick={()=>moveUp(index)}><img src="public\up.svg" alt="up"/></button>
+                        <button className="arrow" onClick={()=>moveDown(index)}><img src="public\down.svg" alt="down"/></button>
                     </li>
                 )}
             </ol>
